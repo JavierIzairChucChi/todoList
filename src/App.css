@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  font-family:'Times New Roman';
+  font-size: 3em;
+  color: ghostwhite;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.3rem;
+}
+
+li{
+  background-color:darkgrey;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+}
+
+p:hover{
+  cursor: pointer;
+}
+
+.completada{
+  color: blue;
+  text-decoration: line-through;
+}
